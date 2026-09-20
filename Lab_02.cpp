@@ -15,11 +15,13 @@ int main()
     cout << " Please enter the value of b: ";
     cin  >>  b;
 
+    // comented z1 because it is equal to z2
     // z1 = (sqrt(2 * b + 2 * sqrt(b * b - 4))) / (sqrt (b * b-4) + b + 2);
     z2 = (1.0) / (sqrt(b + 2));
 
     cout << endl;
     cout << "Results of calculations: " << endl;
+    // We dont output z1 because we dont calculate it
     // cout << "z1 = " << z1 << endl;
     cout << "z2 = " << z2 << endl;
     return 0;
