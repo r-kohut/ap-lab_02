@@ -357,4 +357,4 @@ MigrationBackup/
 
 # VScode settings folder
 .vscode
-*.dSYM
+Lab*/*.dSYM
